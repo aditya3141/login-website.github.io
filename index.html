@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <title>Perfect Computer's</title>
+</head>
+<body>
+<!-- ++++++++++++++++++++++++++++ Header-Section +++++++++++++++++++++++++++++++++++ -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav_logo">
+            <div class="static-text"><span>परफेक्ट</span></div>
+            <ul class="dynamic-text">
+                <li><span>कॉम्प्यूटर माळवाडी-कोतोली</span></li>
+                <li><span>ठिकाण शिक्षणासाठी उत्तम</span></li>
+            </ul>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="#home" class="nav_link active-link" id="left-icon">
+                        <i class='bx bx-home nav_icon'></i>
+                        <span class="nav_name">Home</span>
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="about.html" class="nav_link">
+                        <i class='bx bx-user nav_icon'></i>
+                        <span class="nav_name">About</span>
+                    </a>
+                </li>
+                <div class="icon-main">
+                    <div id="account-btn"><i class='bx bx-plus-circle'></i></div>
+                    
+                </div>
+                <li class="nav_item">
+                    <a href="course.html" class="nav_link">
+                        <i class='bx bxs-book-bookmark nav_icon'></i>
+                        <span class="nav_name">Courses</span>
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="contact.html" class="nav_link">
+                        <i class='bx bx-phone nav_icon'></i>
+                        <span class="nav_name">Contact Us</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <img src="images/Logo.jpg" alt="" class="nav_img">
+    </nav>
+</header>
+<!-- --- Account from section----- -->
+
+<div class="account-form activee">
+    <div class="close-form">&times;</div>
+    <div class="buttons">
+        <span class="login-btn active">login</span>
+        <span class="register-btn">register</span>
+    </div>
+    <!-- +++++++++ login form ++++++++ -->
+    <form class="login-form active">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box-1">
+        <input type="password" placeholder="enter your password" class="box-1">
+        <div class="flex">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember-me</label>
+            <a href="#">forgot password</a>
+        </div>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+    <!-- +++++ Register Form ++++++++ -->
+    <form class="register-form">
+        <h3>register now</h3>
+        <input type="email" placeholder="enter your email" class="box-1">
+        <input type="password" placeholder="enter your password" class="box-1">
+        <input type="password" placeholder="confirm your password" class="box-1">
+      
+        <input type="submit" value="login now" class="btn">
+    </form>
+</div>
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++ Footer Section Start +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<footer class="footer">
+    <div class="footer-left">
+        <img src="images/Logo.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptatibus et cum enim dignissimos, quas labore exercitationem nostrum a soluta animi recusandae, nihil necessitatibus quia saepe tempora ratione fugiat rem!</p>
+        <div class="socials">
+            <a href="https://www.youtube.com/channel/UCbSLtD79OqdJ-EGYf3N_GRA" target="_blank"><i class='bx bxl-youtube i_icon'></i></a>
+            <a href="https://www.messenger.com/t/jack.malbon.3"" target="_blank"><i class='bx bxl-facebook i_icon'></i></a>
+            <a href="https://telegram.me/adityagaikwad"" target="_blank"><i class='bx bxl-telegram i_icon'></i></a>
+            <a href="https://wa.me/<+917219566298>" target="_blank"><i class='bx bxl-whatsapp i_icon'></i></a>
+            <a href="#"><i class='bx bxl-twitter i_icon'></i></a>
+     
+        </div>
+    </div><br>
+    <ul class="footer-middle">
+        <li>
+            <h2>Product</h2>
+            <ul class="box">
+                <li><a href="#">Profesional Teaching</a></li>
+                <li><a href="#">Awsome Computer Lab</a></li>
+                <li><a href="#">Projecter Learning</a></li>
+                <li><a href="#">Graphic Design</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="features">
+        <li>
+            <h2>Useful Links</h2>
+            <ul class="box">
+                <li><a href="#">Naukari.com</a></li>
+                <li><a href="#">Certification</a></li>
+                <li><a href="#">Web Designer</a></li>
+                <li><a href="#">Customer Services</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="rigth">
+        <li>
+            <h2>Address</h2>
+            <ul class="box">
+                <li><a href="#">416230, Near Hotel Surabhi</a></li>
+                <li><a href="#">Main Road, Kotoli,</a></li>
+                <li><a href="#">Talpanhala,</a></li>
+                <li><a href="#">Kolhapur</a></li>
+            </ul>
+        </li>
+    </ul>
+</footer>
+<div class="footer-bottom">
+    <hr>
+    <h3>All Right reserved by &copy;2023 Perfect Computer's.</h3>
+    <h3>Designed and Developed by <span> <a href="https://www.youtube.com/channel/UCbSLtD79OqdJ-EGYf3N_GRA" target="_blank">Aditya</a></span></h3>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
